@@ -46,15 +46,16 @@ header {
 
 .navigation a {
     height: 100%;
-    display: table;
+    /* display: table; */
     float: left;
     padding: 0px 2rem;
 }
 
 .navigation a li {
-    display: table-cell;
-    vertical-align: middle;
+    /* display: table-cell;
+    vertical-align: middle; */
     color: #FFF8F0;
+    line-height: 10vh;
 }
 
 /* main image */
@@ -83,18 +84,18 @@ footer {
 
 .footer_list {
     height: 100%;
-     text-align: center;
+    text-align: center;
 }
 
 .footer_list li {
     display: inline;
-    margin-top: 50%;
 }
 
-.footer_list i {
+.footer_list li i {
     font-size: 2rem;
     padding: 0px 3rem;
     color: #FFF8F0;
+    line-height: 5rem;
 }
 
 /* contact form */
