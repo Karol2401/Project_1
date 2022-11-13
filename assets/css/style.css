@@ -22,6 +22,8 @@ header {
     background-color: #FFA000;
 }
 
+/* left side of navigation bar */
+
 .logo {
     height: 100%;
     display: table;
@@ -34,6 +36,8 @@ header {
     display: table-cell;
     vertical-align: middle;
 }
+
+/* right side of navigation bar*/
 
 .navigation {
     float: right;
@@ -60,3 +64,30 @@ header {
     width: 100%;
     background: url(../images/hero-image2-min.jpg) no-repeat center center;
 }
+
+/* footer */
+
+footer {
+    height: 10vh;
+    width: 100%;
+    background-color: #FFA000;
+}
+
+.inside_footer {
+    height: 100%;
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    background-color: #FFA000;
+}
+
+.footer_list {
+    height: 100%;
+     text-align: center;
+}
+
+.footer_list li {
+    display: inline;
+}
+
+
