@@ -58,6 +58,13 @@ header {
 .navigation a li {
     color: #FFF8F0;
     line-height: 10vh;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    
+}
+
+.navigation a li:hover {
+    text-decoration: underline;
 }
 
 /* main image */
