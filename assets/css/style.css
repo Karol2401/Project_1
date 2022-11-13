@@ -90,4 +90,55 @@ footer {
     display: inline;
 }
 
+/* contact form */
 
+.form_section {
+    background: url(../images/hero_image_cp2-unsplash-min.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    width: 100%;
+}
+
+.contact_form {
+    color: #fff;
+    background-color: rgba(173,138,103,0.7);
+    max-width: 16rem;
+    padding: 4rem;
+    border-radius: 5px;
+}
+
+.contact_form > h2 {
+    color: #fafafa;
+    margin-bottom: 2rem;
+}
+
+.text_input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+.text_input:hover {
+    border-color: #FFA000;
+}
+
+.submit_button {
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #FFA000;
+    color: #FFF8F0;
+    display: block;
+}
+
+.submit_button:hover {
+    background-color: #FFF8F0;
+    color: #FFA000;
+}
