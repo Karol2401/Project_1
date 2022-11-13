@@ -35,6 +35,11 @@ header {
     height: 100%;
     display: table-cell;
     vertical-align: middle;
+    text-transform: uppercase;
+}
+
+.logo h1 span {
+    font-size: 200%;
 }
 
 /* right side of navigation bar*/
@@ -46,14 +51,11 @@ header {
 
 .navigation a {
     height: 100%;
-    /* display: table; */
     float: left;
     padding: 0px 2rem;
 }
 
 .navigation a li {
-    /* display: table-cell;
-    vertical-align: middle; */
     color: #FFF8F0;
     line-height: 10vh;
 }
@@ -113,7 +115,7 @@ footer {
     background-color: rgba(173,138,103,0.7);
     max-width: 16rem;
     padding: 4rem;
-    border-radius: 5px;
+    border-radius: 0.3rem;
 }
 
 .contact_form > h2 {
@@ -125,10 +127,10 @@ footer {
     background: transparent;
     color: #fafafa;
     width: 100%;
-    height: 25px;
-    margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
-    border-radius: 2px;
+    height: 2rem;
+    margin: 0.5rem 0 0.8rem 0;
+    border: 0.125rem solid #fafafa;
+    border-radius: 0.125rem;
 }
 
 .text_input:hover {
@@ -136,9 +138,9 @@ footer {
 }
 
 .submit_button {
-    margin-top: 20px;
-    border-radius: 5px;
-    padding: 15px 32px 15px 32px;
+    margin-top: 1.5rem;
+    border-radius: 0.3rem;
+    padding: 1rem 2rem 1rem 2rem;
     text-align: center;
     font-size: 100%;
     background-color: #FFA000;
