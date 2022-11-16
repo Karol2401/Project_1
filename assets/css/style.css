@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Sansita:ital@1&display=swap');
+
 /* Change deafault settings*/
 * {
     margin: 0;
@@ -11,6 +13,7 @@ header {
     width: 100%;
     display: block;
     background-color: #FFA000;
+    font-family: 'Sansita', sans-serif;
 }
 
 /* Add a black background color to the top navigation */
@@ -86,6 +89,7 @@ footer {
     font-size: 5rem;
     text-transform: uppercase;
     padding-bottom: 0;
+    font-family: 'Sansita', sans-serif;
 }
 
 /* Set up the image gallery structure */
@@ -122,6 +126,11 @@ footer {
 .contact_form > h2 {
     color: #fafafa;
     margin-bottom: 2rem;
+    font-family: 'Sansita', sans-serif;
+}
+/* Style labels */
+.contact_form label {
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* Style input */
@@ -150,12 +159,21 @@ footer {
     background-color: #FFA000;
     color: #FFF8F0;
     display: block;
+    font-family: 'Sansita', sans-serif;
 }
 
 /* Add submit button color after hover */
 .submit_button:hover {
     background-color: #FFF8F0;
     color: #FFA000;
+}
+
+h2 {
+    font-family: 'Sansita', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif; 
 }
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). 

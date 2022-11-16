@@ -14,10 +14,10 @@
 <body>
     <header>
         <div class="topnav" id="myTopnav">
-            <a href="index.html" class="active">YOGA4ALL</a>
-            <a href="index.html">home</a>
-            <a href="gallery.html">gallery</a>
-            <a href="contact.html">contact</a>
+            <a href="index.html" class="active" aria-label="Go to our home page">YOGA4ALL</a>
+            <a href="index.html" aria-label="Go to our home page">home</a>
+            <a href="gallery.html" aria-label="Go to our gallery page">gallery</a>
+            <a href="contact.html" aria-label="Go to our contact page">contact</a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
               <i class="fa fa-bars"></i>
             </a>
@@ -28,14 +28,14 @@
         <form class="contact_form" method="post">
             <h2>Any questions?</h2><h2>Contact us:</h2>
             <label for="fname">First Name</label>
-            <input class="text_input" id="fname" type="text" name="first_name" required>
+            <input class="text_input" id="fname" type="text" name="first_name" aria-label="Enter your name" required >
             <label for="lname">Last Name</label>
-            <input class="text_input" id="lname" type="text" name="last_name" required>            
+            <input class="text_input" id="lname" type="text" name="last_name" aria-label="Enter your surname" required>            
             <label for="email">Email Address</label>
-            <input class="text_input" id="email" type="email" name="email_address" required>
+            <input class="text_input" id="email" type="email" name="email_address" aria-label="Enter your email address" required>
             <label for="pnumber">Phone Number</label>
-            <input class="text_input" id="pnumber" type="number" name="phone_number" required>
-            <input class="submit_button" type="submit" value="Send">
+            <input class="text_input" id="pnumber" type="number" name="phone_number" aria-label="Enter your phone number" required>
+            <input class="submit_button" type="submit" value="Send" arial-label="Submit entered information">
         </form>
     </section>
 
