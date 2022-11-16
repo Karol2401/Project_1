@@ -1,3 +1,4 @@
+/* Change deafault settings*/
 * {
     margin: 0;
     padding: 0;
@@ -5,95 +6,73 @@
     text-decoration: none;
 }
 
-/* top navigation bar */
-
+/* Add header color and display*/
 header {
     width: 100%;
-    height: 10vh;
     display: block;
     background-color: #FFA000;
 }
 
-.inside_header {
-    width: 70%;
-    height: 100%;
-    display: block;
-    margin: 0 auto;
+/* Add a black background color to the top navigation */
+.topnav {
     background-color: #FFA000;
+    overflow: hidden;
 }
 
-/* left side of navigation bar */
-
-.logo {
-    height: 100%;
+/* Style the links inside the navigation bar */
+.topnav a {
     float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 2rem;
 }
 
-.logo h1 {
-    color: #FFF8F0;
-    height: 100%;
-    text-transform: uppercase;
-    line-height: 10vh;
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
 }
 
-/* right side of navigation bar*/
-
-.navigation {
-    float: right;
-    height: 100%;
+/* Add an active class to highlight the current page */
+.topnav a.active {
+    background-color: #333;
+    color: white;
 }
 
-.navigation a {
-    height: 100%;
-    float: left;
-    padding: 0px 2rem;
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
 }
 
-.navigation a li {
-    color: #FFF8F0;
-    line-height: 10vh;
-    font-size: 1.2rem;
-    text-transform: uppercase;
-    
-}
-
-.navigation a li:hover {
-    text-decoration: underline;
-}
-
-/* main image */
-
+/* Add home page dimensions bakcground image */
 #hero_image {
     height: 90vh;
     width: 100%;
     background: url(../images/hero-image2-min.jpg) no-repeat center center;
 }
 
-/* footer */
-
+/*Add footer dimensions and background color*/
 footer {
     height: 5rem;
     width: 100%;
     background-color: #FFA000;
 }
-/*
-.inside_footer {
-    height: 100%;
-    width: 70%;
-    display: block;
-    margin: 0 auto;
-    background-color: #FFA000;
-} */
 
+/* Change the position of list */ 
 .footer_list {
     height: 100%;
     text-align: center;
 }
 
+/* Change display of list elements */
 .footer_list li {
     display: inline;
 }
 
+/* Style footer list elements */
 .footer_list li i {
     font-size: 2rem;
     padding: 0px 3rem;
@@ -101,8 +80,7 @@ footer {
     line-height: 5rem;
 }
 
-/* gallery */
-
+/* Style gallery page heading */
 .gallery_h2 {
     text-align: center;
     font-size: 5rem;
@@ -110,19 +88,19 @@ footer {
     padding-bottom: 0;
 }
 
+/* Set up the image gallery structure */
 #images-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-
+/* Add size of images */
 #images-container img {
     padding: 0.3rem;
     max-width: 500px;
 }
 
-/* contact form */
-
+/* Style form section */
 .form_section {
     background: url(../images/hero_image_cp2-unsplash-min.jpg);
     background-size: cover;
@@ -131,6 +109,7 @@ footer {
     width: 100%;
 }
 
+/* Style contact form */
 .contact_form {
     color: #fff;
     background-color: rgba(173,138,103,0.7);
@@ -139,11 +118,13 @@ footer {
     border-radius: 0.3rem;
 }
 
+/* Style header*/
 .contact_form > h2 {
     color: #fafafa;
     margin-bottom: 2rem;
 }
 
+/* Style input */
 .text_input {
     background: transparent;
     color: #fafafa;
@@ -154,10 +135,12 @@ footer {
     border-radius: 0.125rem;
 }
 
+/*Add input color after hover */
 .text_input:hover {
     border-color: #FFA000;
 }
 
+/* Style submit bottom inside form*/
 .submit_button {
     margin-top: 1.5rem;
     border-radius: 0.3rem;
@@ -169,7 +152,9 @@ footer {
     display: block;
 }
 
+/* Add submit button color after hover */
 .submit_button:hover {
     background-color: #FFF8F0;
     color: #FFA000;
 }
+
