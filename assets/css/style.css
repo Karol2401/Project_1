@@ -75,7 +75,7 @@ footer {
 /* Style footer list elements */
 .footer_list li i {
     font-size: 2rem;
-    padding: 0px 3rem;
+    padding: 0px 5%;
     color: #FFF8F0;
     line-height: 5rem;
 }
