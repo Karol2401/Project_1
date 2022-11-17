@@ -1,108 +1,88 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# YOGA4ALL
 
-Welcome Karol2401,
+## Welcome in YOGA4ALL!
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+YOGA4ALL is a website about yoga. It shows basic information about the history and types of yoga. The user of this site can find photos which show what yoga looks like in practice. This website is for people who are looking for calm and balance with their bodies.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+dodaj zdjecie strony
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+# User Experience (UX)
 
-`python3 -m http.server`
 
-A blue button should appear to click: _Make Public_,
+## User stories
 
-Another blue button should appear to click: _Open Browser_.
++Customer golas:
+    *As a User I want to be able to navigate clearly and logically throughout website
+    *As a User I want to learn more about the history of yoga.
+    *As a User I want to be able to see a contact form to the Builder.
+    *As a User I want to be able to find an address of the Garage.
+    *As a User I want to see pictures of the previous builds.
+    *As a User I need to be able to see text and images clearly.
+    *As a User I want to learn about basic pose in yoga.
+    *As a User I want to have a positive experience using the website.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: _Make Public_,
+##Site Structure
 
-Another blue button should appear to click: _Open Browser_.
++'YOGA4ALL' consists of 3 page.The User can navigate between via the navigation bar. The Home page is the default loading page. The Logo is linked to the Home Page. On the right of the logo is a menu with three navigation links home, gallery and contact. When using a device with a screen of up to 600 pixels, the menu navigation links change into an icon for navigation on the right-hand side of the screen. 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
+##Design
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
++Color Scheme:
+    
+    *Used color are:
+    wstaw kolory
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
++Typography:
 
-------
+    *The fonts used are taken from google fonts named 'Sansita' and 'Open Sans' with a fall-back of sans-serif.
 
-## Release History
++Imagery
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+    *All images used in the creation of the site were downloaded from the websites: https://unsplash.com/ and https://www.pexels.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+#Features
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+    *Featured at the top of the page, the navigation shows the garage name in the left corner, “YOGA4ALL” which links to the homepage.
+    *The other navigation links are to the right: Home, Gallery, and Contact, each linking to a different page on the site.
+    *The navigation link changes to icone for devices with an screen of 600px or less.
+    *Navigation bar shows the name of the page and links which can be used to easily change pages.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+    dodaj zdjecie paska nawigacyjnego
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+#The Header
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+    *The header shows the name of the website name using 'Sansita' fonts.
+    *The main picture shows a person practising yoga.
+    *Below you will find the answer to the question of what yoga is and a brief history of it.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+    dodaj zdjecie strony
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+#Gallery
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+    *Gallery shows photos of sample yoga poses.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+    WSTAW ZDJECIE
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+#Contact
 
-------
+    *The Contact page has a section to let users contact by giving their name, email and phone number.
 
-## FAQ about the uptime script
+    wstaw zdjecie
 
-**Why have you added this script?**
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+#Testing
 
-**How will this affect me?**
+    *I tested that this site works in different browsers: Chrome, Safari, Firefox, Opera.
+    *I confirmed that this site is responsive, looks good and functions well on all standard screen sizes using the Devtools device toolbar.
+    *I confirmed that the Navigation, Header and Contact text are all readable and easy to understand.
+    *I have confirmed the contact form works: it requires entries in every field, will only accept an email in the email field and a phone number in the phone number field, and the submit button works.
+    *I have confirmed the links in the pages all works and external links open in a new tab.
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
