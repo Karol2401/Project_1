@@ -168,6 +168,10 @@ footer {
     color: #FFA000;
 }
 
+#web_info, #history {
+    margin: 1rem 0.5rem;
+}
+
 h2 {
     font-family: 'Sansita', sans-serif;
 }
