@@ -116,7 +116,7 @@ YOGA4ALL is a website about yoga. It shows basic information about the history a
 
  ## Contact
 
- ![Contact page screenshoot](/assets/images/Screenshot%20contact%20page.png)]
+ ![Contact page screenshoot](/assets/images/Screenshot%20contact%20page.png)
 
 
  # Git & GitHub
